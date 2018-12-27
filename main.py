@@ -1,6 +1,7 @@
 import sys
 import json
 import math
+from collections import Counter
 import spotipy
 import spotipy.util as util
 
@@ -63,9 +64,24 @@ if token:
     inp = input('Choose the number in front of the playlist to get more info about it: ')
     print()
     selectedPlaylist = playlists['items'][int(float((inp)))]
+    print(selectedPlaylist)
     # print(selectedPlaylist)
     tracks = get_playlist_tracks(username, selectedPlaylist['id'])
     # print(json.dumps(tracks, sort_keys=True, indent=4))
+
+
+    # Frequency Analysis of added_by
+    if(selectedPlaylist['collaborative']):
+        userFrequency = []
+        for track in tracks:
+            userFrequency.append(track['added_by']['id'])
+
+        for key in Counter(userFrequency):
+            user = sp.user(key)['display_name']
+            frequency = Counter(userFrequency)[key]
+            relFrequency = float(100*frequency/len(tracks))
+            print(user + ": " + str(frequency) + " ("+ str(float("%0.2f"%relFrequency)) +"%)")
+
     trackIDs = get_track_ids(tracks)
     features = get_audio_features(trackIDs)
     # print(json.dumps(features, sort_keys=True, indent=4))
