@@ -12,9 +12,10 @@ This project is made to fetch informations about collaborative playlists and vis
 
 3. set environment variables
 
-    export SPOTIPY_CLIENT_ID='your-spotify-client-id'
+    ```export SPOTIPY_CLIENT_ID='your-spotify-client-id'
     export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
     export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
+    ```
 
 4. call app using
 
