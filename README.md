@@ -6,9 +6,9 @@ This project is made to fetch informations about collaborative playlists and vis
 
 1. install spotipy
 
-`pip3 install spotipy`
+    `pip3 install spotipy`
 
-2. setup spotify developer account and create application
+2. setup Spotify developer account and create application
 
 3. set environment variables
 
@@ -21,6 +21,12 @@ This project is made to fetch informations about collaborative playlists and vis
 
     `python main.py "username"`
 
+
+# Visualized stuff
+
+    - Cake diagram for submissions by user in collaborative playlists
+    - Average Danceability, Energy, Liveness
+    + the most fitting average song in the playlist
 
 # Following ideas
 
