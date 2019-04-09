@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <main>
+        <h1>SPOTIPY-DATAVIZ</h1>
+        <h2>Get special Insight to your Spotify Playlists</h2>
+        <button>
+            <a href='{{login_link}}'>LOGIN WITH SPOTIFY</a>
+        </button>
+    </main>
+    <footer>
+        <nobr>Powered by
+            <a href="https://github.com/plamere/spotipy">spotipy</a>
+        </nobr>
+        <nobr>. Created by
+            <a href="https://gabsii.com">Lukas Gabsi</a>
+        </nobr>
+    </footer>
+    <link rel="stylesheet" href="{% static '/css/index.css' %}">
+{% endblock content %}

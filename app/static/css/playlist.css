@@ -1,0 +1,119 @@
+h1 {
+    font-family: Circular;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+strong {
+    font-weight: bold;
+}
+
+text {
+    font-family: Circular;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#grey {
+    border: 3px solid #B3B3B3;
+    filter: grayscale(0.5);
+}
+
+.titleWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-top: 75px;
+    overflow: hidden;
+    min-height: 275px;
+    text-align: left;
+}
+
+.userGreeting {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 181px;
+}
+
+.userPicture {
+    width: 175px;
+    height: 175px;
+    margin-left: 75px;
+    border: 3px solid #1DB954;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.userPicture:last-of-type {
+    border: 3px solid #1DB954;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    top: 200px;
+}
+
+.albumArt {
+    width: 300px;
+    height: 300px;
+}
+
+.songInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 100px 0;
+}
+
+.songText {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -2.5em;
+    font-family: Circular;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.songFeatures {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Circular;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}

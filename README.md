@@ -32,3 +32,21 @@ This project is made to fetch informations about collaborative playlists and vis
 
 - get the average song stats
 - feed data via sockets to frontend app
+
+# Changelog
+
+## v0.1
+
+    - running python console application
+    - started with `python main.py "USER_ID"`
+    - prints the following things:
+        - playlists
+        - percentage of tracks added by user
+        - song describing the playlist
+        - data concerning the songs features
+
+## v0.2
+
+    - implementing basic functionality of a webapp using django
+    - mockups
+    - oAuth for spotipy
