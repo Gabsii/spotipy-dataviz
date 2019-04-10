@@ -22,6 +22,9 @@ html, body {
     line-height: 1;
     height: 100%;
     width: 100%;
+    background: -webkit-gradient(linear, right top, left top, from(#FF8235), to(#30E8BF));
+    background: -webkit-linear-gradient(right, #FF8235 0%, #30E8BF 100%);
+    background: -o-linear-gradient(right, #FF8235 0%, #30E8BF 100%);
     background: linear-gradient(270deg, #FF8235 0%, #30E8BF 100%);
 }
 

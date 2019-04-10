@@ -9,9 +9,11 @@ h1 {
     color: #FFFFFF;
 }
 
-button {
+#login {
     min-width: 160px;
     max-height: 50px;
+    font-family: Circular;
+    font-weight: bold;
     padding: 17px 48px;
     font-size: 0.9em;
     line-height: 1;
@@ -24,7 +26,7 @@ button {
     margin-top: 1.5em;
 }
 
-button:hover {
+#login:hover {
     background-color: #1ED760;
 }
 
