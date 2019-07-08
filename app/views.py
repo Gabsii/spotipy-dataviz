@@ -1,6 +1,5 @@
 import os
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
 from app.main import generate_auth_url, get_token_for_frontend, get_playlists, get_playlist, get_current_user, is_collaborative_playlist, get_playlist_tracks, get_average_audio_features, get_closest_song,  get_audio_features, get_track_ids, get_user_frequency
 
 # Create your views here.

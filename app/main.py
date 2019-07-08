@@ -99,6 +99,8 @@ def get_token_for_frontend(code):
 def get_playlists(token):
     sp = spotipy.Spotify(auth=token)
     playlists = sp.current_user_playlists()
+    # print(json.dumps(playlists, sort_keys=True, indent=4))
+
     del sp
     return playlists
 

@@ -205,3 +205,55 @@ text {
   font-family: Circular;
   font-size: 36px;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .titleWrapper{
+        min-height: auto;
+        padding-top: 25px;
+    } 
+    
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        align-self: center;
+        margin-top: 5px;
+    }
+
+    .userGreeting *:not(h1) {
+        display:none;
+    }
+/* 
+    .userGreeting h1 {
+        display: block;
+    } */
+    
+    .userGreeting {
+        text-align: center;
+        align-self: center;
+    }
+
+    .songInfo {
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .albumArt {
+        height: 200px;
+        width: 200px;
+    }
+
+    .songText {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        padding: 20px;
+    }
+}

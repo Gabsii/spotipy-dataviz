@@ -119,3 +119,38 @@ h1 {
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        text-align: center;
+        align-self: center;
+        margin-top: 5px;
+    }
+
+    .userPicture {
+        margin-left: 15px;
+    }
+
+    .titleWrapper{
+        margin-top: 0;
+        padding: 10px 10px 0;
+        min-height: 225px;
+    }
+
+    .userPicture {
+        display: none
+    }
+
+    .element:first-of-type {
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        padding: 10px 20px;
+    }
+}
