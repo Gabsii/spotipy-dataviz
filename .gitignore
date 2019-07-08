@@ -1,4 +1,4 @@
-spotipy-dataviz.env
+*.env
 .cache*
 
 # Created by https://www.gitignore.io
